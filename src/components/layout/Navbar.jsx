@@ -22,7 +22,9 @@ const pages = ["All Quotes", "Add A Quote"];
 const Navbar = () => {
   const [toggleDrawer, setToggleDrawer] = useState(false);
   const navButtonHandler = (item) => {
-    console.log(item);
+    if (item === "All Quotes") {
+    } else if (item === "Add A Quote") {
+    }
   };
 
   const drawerItems = (
